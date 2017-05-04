@@ -1,3 +1,63 @@
-baseURL = "http://example.org/"
+baseurl = "https://example.org/"
+title = "Portfolio"
+theme = "hugo-creative-portfolio-theme"
+#theme="hyde"
+#'hyde' another option
 languageCode = "en-us"
-title = "My New Hugo Site"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Data Artist by day, Music Artist by night"
+  copyright = ""
+  sidebarAbout = [
+    "I am a data scientist with over three years experience, and a music composer with over seven ",
+    "Originally from Los Angeles, currently based in New York."
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "david.karapetyan@gmail.com"
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = ""
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+	[[params.navlinks]]
+	name = "Data Science"
+	url = "data_science/"
+  [[params.navlinks]]
+  name = "Math"
+  url = "math/"
+  [[params.navlinks]]
+  name = "Music"
+  url = "music/"
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  email         = "david.karapetyan@gmail.com"
+  #twitter       = "full profile url in twitter"
+  linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
+  #stackoverflow = "full profile url in stackoverflow"
+  #instagram     = "full profile url in instagram"
+  bitbucket     = "https://bitbucket.org/fismoll/"
