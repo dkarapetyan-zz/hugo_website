@@ -2,10 +2,9 @@ baseurl = "https://example.org/"
 title = "Portfolio"
 theme = "hugo-creative-portfolio-theme"
 #theme="hyde"
-#'hyde' another option
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "davidkarapetyan"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -14,7 +13,7 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "default"
   description = "Data Artist by day, Music Artist by night"
-  copyright = ""
+  copyright = "David Karapetyan"
   sidebarAbout = [
     "I am a data scientist with over three years experience, and a music composer with over seven ",
     "Originally from Los Angeles, currently based in New York."
@@ -50,13 +49,10 @@ googleAnalytics = ""
   name = "Music"
   url = "music/"
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contact"
   url = "contact/"
 
   [params.social]
   email         = "david.karapetyan@gmail.com"
-  #twitter       = "full profile url in twitter"
   linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-  #stackoverflow = "full profile url in stackoverflow"
-  #instagram     = "full profile url in instagram"
   github     = "https://github.com"
