@@ -1,7 +1,5 @@
 #### Publications
 
-
-
 <body class="Pub">
 	<span class="Title">An ill-posedness result for the Boussinesq equation</span><br />
 	<span class="Author">D.-A. Geba and A. A. Himonas and D. Karapetyan</span><br />
