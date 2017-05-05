@@ -9,50 +9,50 @@ disqusShortname = "davidkarapetyan"
 googleAnalytics = ""
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "default"
-  description = "Data Artist by day, Music Artist by night"
-  copyright = "David Karapetyan"
-  sidebarAbout = [
-    "I am a data scientist with over three years experience, and a music composer with over seven year experience.",
-    "Originally from Los Angeles, currently based in New York."
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "david.karapetyan@gmail.com"
+# Style options: default (pink), blue, green, pink, red, sea, violet
+# Use custom.css for your custom styling
+style = "default"
+description = "Data Artist by day, Music Artist by night"
+copyright = "David Karapetyan"
+sidebarAbout = [
+								"I am a data scientist with over three years experience, and a music composer with over seven year experience.",
+								"Originally from Los Angeles, currently based in New York."
+								]
+# Contact page
+# Since this template is static, the contact form uses www.formspree.io as a
+# proxy. The form makes a POST request to their servers to send the actual
+# email. Visitors can send up to a 1000 emails each month for free.
+#
+# What you need to do for the setup?
+#
+# - set your email address under 'email' below
+# - upload the generated site to your server
+# - send a dummy email yourself to confirm your account
+# - click the confirm link in the email from www.formspree.io
+# - you're done. Happy mailing!
+email = "david@davidkarapetyan.com"
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-	[[params.navlinks]]
-	name = "Data Science"
-	url = "data_science/"
-  [[params.navlinks]]
-  name = "Math"
-  url = "math/"
-  [[params.navlinks]]
-  name = "Music"
-  url = "music/"
-  [[params.navlinks]]
-  name = "Contact"
-  url = "contact/"
+# Nav links in the side bar
+[[params.navlinks]]
+name = "Home"
+url = ""
+[[params.navlinks]]
+name = "About"
+url = "about/"
+[[params.navlinks]]
+name = "Data Science"
+url = "data_science/"
+[[params.navlinks]]
+name = "Math"
+url = "math/"
+[[params.navlinks]]
+name = "Music"
+url = "music/"
+[[params.navlinks]]
+name = "Contact"
+url = "contact/"
 
-  [params.social]
-  email         = "david.karapetyan@gmail.com"
-  linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-  github     = "https://github.com"
+[params.social]
+email         = "david.karapetyan@gmail.com"
+linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
+github     = "https://github.com"
