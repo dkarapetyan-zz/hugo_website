@@ -1,5 +1,5 @@
-##Contact
+## Contact
 
 
-Direct Contact: david@davidkarapetyan.com
+Direct Contact: [david@davidkarapetyan.com](mailto:david@davidkarapetyan.com)
 
