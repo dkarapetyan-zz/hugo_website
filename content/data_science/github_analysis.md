@@ -2,11 +2,10 @@
 showonlyimage = false
 draft = false 
 image = "/github_analysis_files/github_avatar.png"
-date = "2016-11-10"
+date = "2016-11-11"
 description="An anlalysis for Slack"
 title = "Slack Analysis"
 weight = 0
-type = "post"
 author = "David Karapetyan"
 tags = [ "data_science" ]
 +++

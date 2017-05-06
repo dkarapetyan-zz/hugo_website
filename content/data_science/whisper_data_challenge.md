@@ -6,7 +6,6 @@ date = "2016-11-10"
 description="An analysis for Whisper"
 title = "Whisper"
 weight = 0
-type = "post"
 author = "David Karapetyan"
 tags = [ "data_science" ]
 +++
