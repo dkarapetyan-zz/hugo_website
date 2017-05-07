@@ -171,7 +171,7 @@ plt.show()
 
 
 
-![png](github_analysis_files/github_analysis_5_1.png)
+![png](/github_analysis_files/github_analysis_5_1.png)
 
 
 
@@ -232,7 +232,7 @@ plt.show()
 
 
 
-![png](github_analysis_files/github_analysis_5_3.png)
+![png](/github_analysis_files/github_analysis_5_3.png)
 
 
 # Data Munging
@@ -947,7 +947,7 @@ plt.show()
 ```
 
 
-![png](github_analysis_files/github_analysis_12_0.png)
+![png](/github_analysis_files/github_analysis_12_0.png)
 
 
 To reduce the presence of the outliers, we test both an
@@ -999,11 +999,11 @@ plt.show()
 ```
 
 
-![png](github_analysis_files/github_analysis_14_0.png)
+![png](/github_analysis_files/github_analysis_14_0.png)
 
 
 
-![png](github_analysis_files/github_analysis_14_1.png)
+![png](/github_analysis_files/github_analysis_14_1.png)
 
 
 Comparing these two boxplots with our original outlier boxplot shows that
@@ -1837,7 +1837,7 @@ print(p)
 ```
 
 
-![png](github_analysis_files/github_analysis_24_0.png)
+![png](/github_analysis_files/github_analysis_24_0.png)
 
 
     <ggplot: (280999409)>
@@ -2489,7 +2489,7 @@ plot_pred_vs_actual(train_pred_actual_d['target_commits_train_actual'],
 ```
 
 
-![png](github_analysis_files/github_analysis_32_0.png)
+![png](/github_analysis_files/github_analysis_32_0.png)
 
 
 

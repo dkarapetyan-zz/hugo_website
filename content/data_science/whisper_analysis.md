@@ -255,7 +255,7 @@ master_df['Tags'].value_counts().plot(kind='bar')
 
 
 
-![png](whisper_data_challenge_files/whisper_data_challenge_15_1.png)
+![png](/whisper_data_challenge_files/whisper_data_challenge_15_1.png)
 
 
 Filtering out the misc tags gives:
@@ -309,7 +309,7 @@ mismatches['Tags'].value_counts().plot(kind='bar')
 
 
 
-![png](whisper_data_challenge_files/whisper_data_challenge_21_1.png)
+![png](/whisper_data_challenge_files/whisper_data_challenge_21_1.png)
 
 
 Given more time and greater processing power for this data challenge, I would focus on trying to predict the 'personal', 'relationships', and 'qna' tags, ignoring the others temporarily.  Furthermore, I would look into using a more advanced text vectorizer model (i.e. a larger range for the ngrams, and more generally, word embedding models preserving semantic relationships between words). Lastly, more feature engineering may be needed (for example, all the tags may be vague, or be lumping together disparate topics under one heading--for example, the tag 'relationships'). 

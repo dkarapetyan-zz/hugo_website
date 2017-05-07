@@ -7,7 +7,8 @@ languageCode = "en-us"
 disqusShortname = "davidkarapetyan"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-
+PygmentsCodeFences=true
+pygmentsStyle="default"
 [params]
 # Style options: default (pink), blue, green, pink, red, sea, violet
 # Use custom.css for your custom styling
