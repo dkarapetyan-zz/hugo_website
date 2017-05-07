@@ -1,10 +1,10 @@
 +++
-showonlyimage = false
+showonlyimage = true
 draft = false 
-image = "/github_analysis_files/github_avatar.png"
-date = "2007-10-04T00:00:00Z"
-description="An analysis for Slack"
-title = "Slack Analysis"
+image = "github_analysis_files/github_avatar.png"
+date = "2007-10-04T00:00:00+00:00"
+description="An analysis for Github"
+title = "Github Analysis"
 weight = 0
 author = "David Karapetyan"
 tags = [ "data_science" ]
