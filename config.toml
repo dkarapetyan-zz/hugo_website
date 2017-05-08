@@ -50,6 +50,9 @@ url = "math/"
 name = "Music"
 url = "music/"
 [[params.navlinks]]
+name = "Hobbies"
+url = "hobbies/"
+[[params.navlinks]]
 name = "Contact"
 url = "contact/"
 
