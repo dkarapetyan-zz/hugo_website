@@ -1,7 +1,3 @@
-<!-----
-title: Hobbies
------>
-
 ### Chess
 
 I am an avid chess fan, and played in tournaments in high school and at
