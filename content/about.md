@@ -1,3 +1,10 @@
++++
++++
+<figure>
+    <img src="/images/avatar.jpeg" width="300" height="300"  />
+</figure>
+
+
 David Karapetyan during the day is an accomplished data scientist, whose most
 recently  created  a 'smart buildling' recommendation engine Rudin Management,
 currently in use in a number of commercial high rises in New York.
