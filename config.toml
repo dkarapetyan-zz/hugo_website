@@ -3,7 +3,7 @@ title = "Portfolio"
 theme = ""
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "davidkarapetyan"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 PygmentsCodeFences=true
@@ -50,8 +50,8 @@ url = "about/"
 name = "Data Science"
 url = "data_science/"
 [[params.navlinks]]
-name = "Math"
-url = "math/"
+name = "Mathematics"
+url = "mathematics/"
 [[params.navlinks]]
 name = "Music"
 url = "music/"

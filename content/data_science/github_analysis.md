@@ -1,8 +1,7 @@
 +++
 showonlyimage = true
 draft = false 
-image = "github_analysis_files/github_avatar.png"
-date = "2007-10-04T00:00:00+00:00"
+image = "/github_analysis_files/github_avatar.png"
 description="An analysis for Github"
 title = "Github Analysis"
 weight = 0

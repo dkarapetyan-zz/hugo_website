@@ -2,7 +2,6 @@
 showonlyimage = true
 draft = false
 image = "github_analysis_files/github_avatar.png"
-date = "2010-09-06T00:00:00Z"
 description="An analysis for Whisper"
 title = "Whisper Analysis"
 weight = 0
