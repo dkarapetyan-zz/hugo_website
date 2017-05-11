@@ -1,5 +1,6 @@
 +++
 title="Larkin"
+type="portfolio"
 image="/images/larkin.jpg"
 description="A forecasting and analytics engine for commercial buildings"
 +++
