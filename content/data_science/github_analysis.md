@@ -1,6 +1,7 @@
 +++
-showonlyimage = true
+showonlyimage = false
 draft = false 
+type="portfolio"
 image = "/github_analysis_files/github_avatar.png"
 description="An analysis for Github"
 title = "Github Analysis"
