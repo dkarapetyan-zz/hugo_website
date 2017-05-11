@@ -32,13 +32,13 @@ sidebarAbout = [
 # - you're done. Happy mailing!
 [author]
 name = "David Karapetyan"
-homepage="https://github.com/dkarapetyan"
+homepage="https://davidkarapetyan.com"
 email = "david@davidkarapetyan.com"
 
 # If porting an existing theme
-[original]
-name = "bootstrapious"
-homepage = "https://bootstrapious.com/p/creative-portfolio"
+#[original]
+#name = "bootstrapious"
+#homepage = "https://bootstrapious.com/p/creative-portfolio"
 # Nav links in the side bar
 [[params.navlinks]]
 name = "Home"
@@ -65,5 +65,5 @@ url = "contact/"
 [params.social]
 email         = "david.karapetyan@gmail.com"
 linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-github     = "https://github.com"
+github     = "https://github.com/dkarapetyan"
 soundcloud = "https://soundcloud.com/davidkarapetyan"
