@@ -1,8 +1,8 @@
 +++
 showonlyimage = false
 draft = false
-type="portfolio"
 image = "/images/whisper_avatar.png"
+portfolio = true
 description="An analysis for Whisper"
 title = "Whisper Analysis"
 weight = 0
