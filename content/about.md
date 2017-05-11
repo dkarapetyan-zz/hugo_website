@@ -1,7 +1,7 @@
 +++
 +++
 <figure>
-    <img src="/images/avatar.jpeg" width="300" height="300"  />
+    <img src="/images/avatar.jpeg" width="230" height="230"  />
 </figure>
 
 
