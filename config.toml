@@ -1,6 +1,6 @@
 baseurl = "https://boiling-lowlands-84549.herokuapp.com/"
 title = "Portfolio"
-theme = ""
+theme = "creative_portfolio_david"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
