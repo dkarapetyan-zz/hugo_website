@@ -10,6 +10,7 @@ author = "David Karapetyan"
 tags = [ "data_science" ]
 +++
 
+
 # Introduction
 
 We will split our analysis into a series of steps, which will be
@@ -96,7 +97,7 @@ we next get an overview of nulls in our data.
 ```python
 def na_plotter(data=None, title=None):
     bar_data = data.isnull().sum().to_frame(name=title)
-    display(bar_data.transpose())
+    display(bar_data)
     fig = bar_data.plot.barh(figsize=(8, 8))
     plt.xlabel('Count', fontsize=15)
     plt.ylabel('NaNs', fontsize=15)
@@ -116,57 +117,96 @@ plt.show()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>user_age_days</th>
-      <th>is_org_member</th>
-      <th>total_repos</th>
-      <th>total_followers</th>
-      <th>total_stars_given</th>
-      <th>total_commit_comments</th>
-      <th>days_since_commit_comment</th>
-      <th>total_commits</th>
-      <th>total_inline_pr_comments</th>
-      <th>days_since_inline_pr_comment</th>
-      <th>...</th>
-      <th>days_since_issue_comment</th>
-      <th>total_issues</th>
-      <th>issue_titles</th>
-      <th>days_since_issue</th>
-      <th>total_prs</th>
-      <th>pr_titles</th>
-      <th>days_since_pr</th>
-      <th>total_pushes</th>
-      <th>days_since_push</th>
-      <th>target_commits</th>
+      <th>Training Data Nulls</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>Training Data Nulls</th>
+      <th>user_age_days</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>is_org_member</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_repos</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_followers</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_stars_given</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_commit_comments</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_commit_comment</th>
       <td>32169</td>
+    </tr>
+    <tr>
+      <th>total_commits</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_inline_pr_comments</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_inline_pr_comment</th>
       <td>24129</td>
-      <td>...</td>
+    </tr>
+    <tr>
+      <th>total_issue_comments</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_issue_comment</th>
       <td>1788</td>
+    </tr>
+    <tr>
+      <th>total_issues</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>issue_titles</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_issue</th>
       <td>6843</td>
+    </tr>
+    <tr>
+      <th>total_prs</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>pr_titles</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_pr</th>
       <td>5526</td>
+    </tr>
+    <tr>
+      <th>total_pushes</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_push</th>
       <td>6313</td>
+    </tr>
+    <tr>
+      <th>target_commits</th>
       <td>0</td>
     </tr>
   </tbody>
 </table>
-<p>1 rows × 21 columns</p>
 </div>
 
 
@@ -180,50 +220,88 @@ plt.show()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>user_age_days</th>
-      <th>is_org_member</th>
-      <th>total_repos</th>
-      <th>total_followers</th>
-      <th>total_stars_given</th>
-      <th>total_commit_comments</th>
-      <th>days_since_commit_comment</th>
-      <th>total_commits</th>
-      <th>total_inline_pr_comments</th>
-      <th>days_since_inline_pr_comment</th>
-      <th>total_issue_comments</th>
-      <th>days_since_issue_comment</th>
-      <th>total_issues</th>
-      <th>issue_titles</th>
-      <th>days_since_issue</th>
-      <th>total_prs</th>
-      <th>pr_titles</th>
-      <th>days_since_pr</th>
-      <th>total_pushes</th>
-      <th>days_since_push</th>
+      <th>Test Data Nulls</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>Test Data Nulls</th>
+      <th>user_age_days</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>is_org_member</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_repos</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_followers</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_stars_given</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_commit_comments</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_commit_comment</th>
       <td>3643</td>
+    </tr>
+    <tr>
+      <th>total_commits</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>total_inline_pr_comments</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_inline_pr_comment</th>
       <td>2668</td>
+    </tr>
+    <tr>
+      <th>total_issue_comments</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_issue_comment</th>
       <td>237</td>
+    </tr>
+    <tr>
+      <th>total_issues</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>issue_titles</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_issue</th>
       <td>738</td>
+    </tr>
+    <tr>
+      <th>total_prs</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>pr_titles</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_pr</th>
       <td>589</td>
+    </tr>
+    <tr>
+      <th>total_pushes</th>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>days_since_push</th>
       <td>708</td>
     </tr>
   </tbody>
@@ -937,8 +1015,7 @@ def plot_outliers(feat_df):
     data_for_plot = MinMaxScaler(feature_range=(0, 1), copy=True).fit_transform(
         feat_df)
     df_for_plot = pd.DataFrame(data=data_for_plot, columns=feat_df.columns)
-    fig = df_for_plot.plot(kind='box', figsize=(50, 50), fontsize=50,
-                           vert=False)
+    fig = df_for_plot.plot(kind='box', vert=False)
     return fig
 
 
