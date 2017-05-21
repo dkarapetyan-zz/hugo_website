@@ -3,6 +3,7 @@ title="Larkin"
 portfolio = true
 image="/images/larkin.jpg"
 description="A forecasting and analytics engine for commercial buildings"
+weight=1
 +++
 
 # Synopsis
