@@ -11,12 +11,19 @@ pygmentsStyle="default"
 [params]
 #style = "default"
 description = "Data Artist by day, Music Artist by night"
-copyright = "David Karapetyan"
+#copyright = "David Karapetyan"
 sidebarAbout = [
 								"I am a data scientist with over three years experience, and a music composer with over seven year experience.",
 								"Originally from Los Angeles, currently based in New York."
 								]
+home='About'
+theme = "theme-base-08"
+
 ShowDatesOnPosts = false
+email         = "david.karapetyan@gmail.com"
+linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
+github     = "https://github.com/dkarapetyan"
+soundcloud = "https://soundcloud.com/davidkarapetyan"
 # Contact page
 # Since this template is static, the contact form uses www.formspree.io as a
 # proxy. The form makes a POST request to their servers to send the actual
@@ -34,8 +41,4 @@ name = "David Karapetyan"
 homepage="https://davidkarapetyan.com"
 email = "david.karapetyan@gmail.com"
 
-[params.social]
-email         = "david.karapetyan@gmail.com"
-linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-github     = "https://github.com/dkarapetyan"
-soundcloud = "https://soundcloud.com/davidkarapetyan"
+
