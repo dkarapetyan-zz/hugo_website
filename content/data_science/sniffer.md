@@ -3,7 +3,7 @@ title="Sniffer"
 portfolio = true
 image="/images/sniffer.jpg"
 description="An occupancy sniffer for small establishments (using raspberry pi)"
-weight=3
+weight=2
 +++
 
 # Synopsis
