@@ -1,4 +1,6 @@
 +++
+title="Hobbies"
+menu="main"
 +++
 ### Chess
 

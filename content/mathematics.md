@@ -1,3 +1,7 @@
++++
+title="Mathematics"
+menu="main"
++++
 #### Publications
 
 <body class="Pub">

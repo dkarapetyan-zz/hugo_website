@@ -9,15 +9,14 @@ googleAnalytics = ""
 PygmentsCodeFences=true
 pygmentsStyle="default"
 [params]
-# Style options: default (pink), blue, green, pink, red, sea, violet
-# Use custom.css for your custom styling
-style = "default"
+#style = "default"
 description = "Data Artist by day, Music Artist by night"
 copyright = "David Karapetyan"
 sidebarAbout = [
 								"I am a data scientist with over three years experience, and a music composer with over seven year experience.",
 								"Originally from Los Angeles, currently based in New York."
 								]
+ShowDatesOnPosts = false
 # Contact page
 # Since this template is static, the contact form uses www.formspree.io as a
 # proxy. The form makes a POST request to their servers to send the actual
@@ -34,33 +33,6 @@ sidebarAbout = [
 name = "David Karapetyan"
 homepage="https://davidkarapetyan.com"
 email = "david.karapetyan@gmail.com"
-
-# If porting an existing theme
-#[original]
-#name = "bootstrapious"
-#homepage = "https://bootstrapious.com/p/creative-portfolio"
-# Nav links in the side bar
-[[params.navlinks]]
-name = "Home"
-url = ""
-[[params.navlinks]]
-name = "About"
-url = "about/"
-[[params.navlinks]]
-name = "Data Science"
-url = "data_science/"
-[[params.navlinks]]
-name = "Mathematics"
-url = "mathematics/"
-[[params.navlinks]]
-name = "Music"
-url = "music/"
-[[params.navlinks]]
-name = "Hobbies"
-url = "hobbies/"
-[[params.navlinks]]
-name = "Contact"
-url = "contact/"
 
 [params.social]
 email         = "david.karapetyan@gmail.com"

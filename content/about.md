@@ -1,6 +1,8 @@
 +++
+title="About"
 menu="main"
 +++
+
 <figure>
     <img src="/images/avatar.jpeg" width="230" height="230"  />
 </figure>
