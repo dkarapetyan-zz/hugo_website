@@ -1,0 +1,438 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="ChessBase HTML Publisher 3.0">
+<STYLE TYPE='text/css'>
+<!--
+body {color: 000000; font-family:Arial; font-size:10pt;  font: normal}
+p {color: 000000; font-family:Arial; font-size:10pt;  font: normal}
+h1 {color: 000000}
+h4 {color: 000000}
+.e1b {font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.e0 {color: 000000; font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.e1 {color: #000000; font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.e2 {color: #000000; font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.e3 {color: #000000; font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.e4 {color: #000000; font-family:Arial; font-size:10pt;  font-style: normal; text-decoration: none}
+.game {font-family:Arial; font-size:10pt;  font-style: normal;}
+//-->
+</STYLE>
+</HEAD>
+<BODY bgcolor="#FEFDE8"link="#008000" vlink="#800000" >
+<script>
+<!--
+function g0(a, b) {
+    parent.frames[0].g0(a, b);
+}
+var n84 = [];
+var b84 = -1;
+var m84 = new Array(1);
+var fenNota="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+m84[1] = [1,11];
+m84[1].base = [8,0];
+m84[1].root =0;
+m84[1].move =7;
+m84[2] = [1,18];
+m84[2].base = [9,0];
+m84[2].root =0;
+m84[2].move =7;
+m84[3] = [3,11,45,28,11,10,36,27,20,27,57,42,6,21,59,45];
+m84[3].base = [12,13,14,15,16,17,18,19,0];
+m84[3].root =0;
+m84[3].move =9;
+m84[4] = [36,27,20,27,60,62,127,61,5,19,51,35,6,12,57,42,4,6,71,5,62,63,11,21];
+m84[4].base = [21,22,23,23,24,25,26,27,28,28,29,30,0];
+m84[4].root =0;
+m84[4].move =10;
+m84[5] = [6,12,60,62,127,61,14,22];
+m84[5].base = [32,33,33,34,0];
+m84[5].root =0;
+m84[5].move =11;
+m84[6] = [6,21,57,42,5,12];
+m84[6].base = [35,36,37,0];
+m84[6].root =0;
+m84[6].move =11;
+m84[7] = [27,35,36,28,19,10,57,51,12,18,51,36,3,12,58,51,13,29,28,21,77,77,14,21,48,40,21,29,36,30,4,2,64,3];
+m84[7].base = [42,43,44,45,46,47,48,49,50,51,51,52,53,54,55,56,56,0];
+m84[7].root =0;
+m84[7].move =16;
+m84[9] = [19,10,54,38,13,29,36,28,3,4,38,30];
+m84[9].base = [62,63,64,65,66,67,0];
+m84[9].root =8;
+m84[9].move =5;
+m84[8] = [4,6,71,5,57,42,27,35,42,52,8,16,54,38,9,25,49,41,0,1,52,46,12,22,36,28,19,10,45,30,15,23,30,36,3,39];
+m84[8].base = [57,57,58,59,60,61,68,69,70,71,72,73,74,75,76,77,78,79,0];
+m84[8].root =0;
+m84[8].move =16;
+m84[10] = [4,6,71,5,59,52,10,24,42,59,12,18,59,53,3,12,58,44,0,3,36,28,13,21,53,36,21,28,45,28,18,28,37,28];
+m84[10].base = [84,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,0];
+m84[10].root =0;
+m84[10].move =20;
+m84[11] = [36,28,13,21,28,21,12,21,45,30];
+m84[11].base = [107,108,109,110,111,0];
+m84[11].root =0;
+m84[11].move =28;
+m84[12] = [8,16];
+m84[12].base = [113,0];
+m84[12].root =0;
+m84[12].move =29;
+m84[13] = [13,21,25,19];
+m84[13].base = [116,117,0];
+m84[13].root =0;
+m84[13].move =31;
+m84[14] = [25,19,11,21,36,28,21,38];
+m84[14].base = [119,120,121,122,0];
+m84[14].root =0;
+m84[14].move =32;
+m84[16] = [53,39];
+m84[16].base = [126,0];
+m84[16].root =15;
+m84[16].move =2;
+m84[15] = [36,28,13,21,53,46];
+m84[15].base = [123,124,125,0];
+m84[15].root =0;
+m84[15].move =32;
+m84[17] = [25,19,18,35];
+m84[17].base = [129,130,0];
+m84[17].root =0;
+m84[17].move =34;
+m84[18] = [59,51];
+m84[18].base = [145,0];
+m84[18].root =0;
+m84[18].move =48;
+m84[19] = [53,51];
+m84[19].base = [148,0];
+m84[19].root =0;
+m84[19].move =50;
+m84[20] = [42,25,13,12,51,45];
+m84[20].base = [155,156,157,0];
+m84[20].root =0;
+m84[20].move =56;
+m84[21] = [27,37];
+m84[21].base = [174,0];
+m84[21].root =0;
+m84[21].move =72;
+m84[22] = [45,51,20,19];
+m84[22].base = [177,178,0];
+m84[22].root =0;
+m84[22].move =74;
+m84[23] = [19,26,37,20];
+m84[23].base = [182,183,0];
+m84[23].root =0;
+m84[23].move =77;
+m84[24] = [18,28];
+m84[24].base = [186,0];
+m84[24].root =0;
+m84[24].move =79;
+m84[25] = [44,51];
+m84[25].base = [190,0];
+m84[25].root =0;
+m84[25].move =82;
+m84[26] = [18,28];
+m84[26].base = [192,0];
+m84[26].root =0;
+m84[26].move =83;
+m84[28] = [43,28,19,28,51,44,15,31];
+m84[28].base = [199,200,201,202,0];
+m84[28].root =27;
+m84[28].move =1;
+m84[27] = [18,28,43,49];
+m84[27].base = [197,198,0];
+m84[27].root =0;
+m84[27].move =87;
+m84[29] = [43,28,19,28];
+m84[29].base = [212,213,0];
+m84[29].root =0;
+m84[29].move =96;
+m84[30] = [47,39,30,39,46,39,16,24,40,32,21,29,36,29,28,29,44,45];
+m84[30].base = [226,227,228,229,230,231,232,233,234,0];
+m84[30].root =0;
+m84[30].move =108;
+m84[0] = [52,36,10,26,53,37,12,20,62,45,11,27,61,25,2,11,25,11,1,11,51,43,5,19,60,62,127,61,6,12,50,34,27,36,43,36,19,10,57,42,12,18,58,44,4,6,71,5,59,52,3,12,56,59,0,3,52,53,10,24,42,25,24,17,55,47,13,21,25,42,17,24,42,32,9,17,44,51,11,1,51,24,18,24,49,41,24,18,32,42,3,59,61,59,5,3,59,3,12,3,37,29,3,43,53,51,43,51,45,51,6,13,62,53,18,35,29,20,13,20,53,44,1,18,51,45,35,50,44,51,50,33,48,40,33,16,42,27,16,1,51,44,1,11,41,33,11,28,27,37,20,19,33,26,17,26,45,28,19,28,37,43,28,19,43,37,18,3,44,51,3,18,37,43,18,35,43,37,14,30,37,43,35,18,51,44,15,31,54,46,18,28,43,49,8,16,44,52,28,18,49,43,18,35,52,51,35,18,51,44,18,28,43,28,19,28,47,39];
+m84[0].base = [0,1,2,3,4,5,6,7,10,11,20,31,38,38,39,40,41,80,81,82,83,100,101,101,102,103,104,105,106,112,114,115,118,127,128,131,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,149,150,151,152,153,154,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,175,176,179,180,181,184,185,187,188,189,191,193,194,195,196,203,204,205,206,207,208,209,210,211,214,215,216,217,218,219,220,221,222,223,224,225,0];
+m84[0].root =0;
+m84[0].move =0;
+//-->
+</script>
+<P><H3>(85) Minasian, Anastasian - Sicilian 2.f4 [B21]<BR>
+ 20.03.2006<BR>
+</H3></P>
+<P><B>
+<BR><BR>
+<a href="javascript:g0(1,0)" id='0' CLASS='e0' name="zeroAnchor">1.e4</a>
+ <a href="javascript:g0(2,0)" id='0' CLASS='e0'>c5</a>
+ <a href="javascript:g0(3,0)" id='0' CLASS='e0'>2.f4</a>
+ <a href="javascript:g0(4,0)" id='0' CLASS='e0'>e6</a>
+ <a href="javascript:g0(5,0)" id='0' CLASS='e0'>3.Nf3</a>
+ <a href="javascript:g0(6,0)" id='0' CLASS='e0'>d5</a>
+ <a href="javascript:g0(7,0)" id='0' CLASS='e0'>4.Bb5+</a>
+ <a href="javascript:g0(8,0)" id='0' CLASS='e0'>Bd7</a>
+ </B>Babula,V: 'This looks naturally,' <B></B> [but possible is also <a href="javascript:g0(1,1)" id='0' CLASS='e1'>4...Nd7</a>
+ ; and <a href="javascript:g0(1,2)" id='0' CLASS='e1'>4...Nc6</a>
+ ] <B><BR><BR>
+<a href="javascript:g0(9,0)" id='0' CLASS='e0'>5.Bxd7+</a>
+ <a href="javascript:g0(10,0)" id='0' CLASS='e0'>Nxd7</a>
+ </B>Babula,V: 'Black develops his knight.' <B></B> [Weaker <a href="javascript:g0(1,3)" id='0' CLASS='e1'>�5...Qxd7</a>
+ is dangerous for Black: <a href="javascript:g0(2,3)" id='0' CLASS='e1'>6.Ne5</a>
+ <a href="javascript:g0(3,3)" id='0' CLASS='e1'>Qc7</a>
+ <a href="javascript:g0(4,3)" id='0' CLASS='e1'>7.exd5</a>
+ <a href="javascript:g0(5,3)" id='0' CLASS='e1'>exd5</a>
+ <a href="javascript:g0(6,3)" id='0' CLASS='e1'>8.Nc3</a>
+ <a href="javascript:g0(7,3)" id='0' CLASS='e1'>Nf6</a>
+ <a href="javascript:g0(8,3)" id='0' CLASS='e1'>9.Qf3</a>
+] <B><BR><BR>
+<a href="javascript:g0(11,0)" id='0' CLASS='e0'>6.d3</a>
+ </B> [<a href="javascript:g0(1,4)" id='0' CLASS='e1'>6.exd5</a>
+ doesn't give White anything now, for example <a href="javascript:g0(2,4)" id='0' CLASS='e1'>6...exd5</a>
+ <a href="javascript:g0(3,4)" id='0' CLASS='e1'>7.0-0</a>
+ <a href="javascript:g0(4,4)" id='0' CLASS='e1'>Bd6</a>
+ <a href="javascript:g0(5,4)" id='0' CLASS='e1'>8.d4</a>
+ <a href="javascript:g0(6,4)" id='0' CLASS='e1'>Ne7</a>
+ <a href="javascript:g0(7,4)" id='0' CLASS='e1'>9.Nc3</a>
+ <a href="javascript:g0(8,4)" id='0' CLASS='e1'>0-0</a>
+ <a href="javascript:g0(9,4)" id='0' CLASS='e1'>10.Kh1</a>
+ <a href="javascript:g0(10,4)" id='0' CLASS='e1'>Nf6=</a>
+ 1/2 Sax,G (2570)-Van der Wiel,J (2515)/Amsterdam 1983/MCD (23)] <B><BR><BR>
+<a href="javascript:g0(12,0)" id='0' CLASS='e0'>6...Bd6</a>
+ </B>Moves after the blue 'critical opening position' are my repertoire Babula,V: 'Black deploys his kingside's minor pieces the most harmoniously.' <B></B> [Other reasonable ways of doing this is <a href="javascript:g0(1,5)" id='0' CLASS='e1'>6...Ne7</a>
+ <a href="javascript:g0(2,5)" id='0' CLASS='e1'>7.0-0</a>
+ <a href="javascript:g0(3,5)" id='0' CLASS='e1'>g6</a>
+; or <a href="javascript:g0(1,6)" id='0' CLASS='e1'>6...Ngf6</a>
+ <a href="javascript:g0(2,6)" id='0' CLASS='e1'>7.Nc3</a>
+ <a href="javascript:g0(3,6)" id='0' CLASS='e1'>Be7</a>
+] <B><BR><BR>
+<a href="javascript:g0(13,0)" id='0' CLASS='e0'>7.0-0</a>
+ <a href="javascript:g0(14,0)" id='0' CLASS='e0'>Ne7</a>
+ <a href="javascript:g0(15,0)" id='0' CLASS='e0'>8.c4</a>
+ </B>The important move of White's concept. He attacks Black's centre and fixes Black's c pawn on c5 where it limits the scope of Black's dark squared  bishop. <B><BR><BR>
+<a href="javascript:g0(16,0)" id='0' CLASS='e0'>8...dxe4?!</a>
+ </B>This exchange isn't strategically correct. It increases the difference in activity of both bishops and White gains some space also.  <B></B> [It deserves attention to block the position by d5-d4, now or a move later, which leads to double-edged positions, for example: <a href="javascript:g0(1,7)" id='0' CLASS='e1'>8...d4</a>
+ <a href="javascript:g0(2,7)" id='0' CLASS='e1'>9.e5</a>
+ <a href="javascript:g0(3,7)" id='0' CLASS='e1'>Bc7</a>
+ <a href="javascript:g0(4,7)" id='0' CLASS='e1'>10.Nbd2</a>
+ <a href="javascript:g0(5,7)" id='0' CLASS='e1'>Nc6</a>
+ <a href="javascript:g0(6,7)" id='0' CLASS='e1'>11.Ne4</a>
+ <a href="javascript:g0(7,7)" id='0' CLASS='e1'>Qe7</a>
+ <a href="javascript:g0(8,7)" id='0' CLASS='e1'>12.Bd2</a>
+ <a href="javascript:g0(9,7)" id='0' CLASS='e1'>f5</a>
+ <a href="javascript:g0(10,7)" id='0' CLASS='e1'>13.exf6</a>
+ <a href="javascript:g0(11,7)" id='0' CLASS='e1'>gxf6</a>
+ <a href="javascript:g0(12,7)" id='0' CLASS='e1'>14.a3</a>
+ <a href="javascript:g0(13,7)" id='0' CLASS='e1'>f5</a>
+ <a href="javascript:g0(14,7)" id='0' CLASS='e1'>15.Neg5</a>
+ <a href="javascript:g0(15,7)" id='0' CLASS='e1'>0-0-0~~</a>
+ 0-1 Minasian,A (2571)-Yudasin,L (2558)/Los Angeles 2003/CBM 097 (50); <a href="javascript:g0(1,8)" id='0' CLASS='e1'>8...0-0</a>
+ <a href="javascript:g0(2,8)" id='0' CLASS='e1'>9.Nc3</a>
+ <a href="javascript:g0(3,8)" id='0' CLASS='e1'>d4</a>
+ <a href="javascript:g0(4,8)" id='0' CLASS='e1'>10.Ne2</a>
+ <a href="javascript:g0(5,8)" id='0' CLASS='e1'>a6</a>
+ <I> (<a href="javascript:g0(1,9)" id='0' CLASS='e2'>10...Bc7</a>
+ <a href="javascript:g0(2,9)" id='0' CLASS='e2'>11.g4</a>
+ <a href="javascript:g0(3,9)" id='0' CLASS='e2'>f5</a>
+ <a href="javascript:g0(4,9)" id='0' CLASS='e2'>12.e5</a>
+ <a href="javascript:g0(5,9)" id='0' CLASS='e2'>Qe8</a>
+ <a href="javascript:g0(6,9)" id='0' CLASS='e2'>13.g5~~</a>
+ </I>1-0 Djurhuus,R (2495)-Hansen,C (2610)/Munkebo 1998/CBM 067 (48)<I>) </I><a href="javascript:g0(6,8)" id='0' CLASS='e1'>11.g4</a>
+ <a href="javascript:g0(7,8)" id='0' CLASS='e1'>b5</a>
+ <a href="javascript:g0(8,8)" id='0' CLASS='e1'>12.b3</a>
+ <a href="javascript:g0(9,8)" id='0' CLASS='e1'>Rb8</a>
+ <a href="javascript:g0(10,8)" id='0' CLASS='e1'>13.Ng3</a>
+ <a href="javascript:g0(11,8)" id='0' CLASS='e1'>Ng6</a>
+ <a href="javascript:g0(12,8)" id='0' CLASS='e1'>14.e5</a>
+ <a href="javascript:g0(13,8)" id='0' CLASS='e1'>Bc7</a>
+ <a href="javascript:g0(14,8)" id='0' CLASS='e1'>15.Ng5</a>
+ <a href="javascript:g0(15,8)" id='0' CLASS='e1'>h6</a>
+ <a href="javascript:g0(16,8)" id='0' CLASS='e1'>16.N5e4</a>
+ <a href="javascript:g0(17,8)" id='0' CLASS='e1'>Qh4~~</a>
+ 0-1 Sveshnikov,E (2525)-Berkovich,D (2445)/Podolsk 1992/CBM 033 (41)] <B><BR><BR>
+<a href="javascript:g0(17,0)" id='0' CLASS='e0'>9.dxe4+/=</a>
+ <a href="javascript:g0(18,0)" id='0' CLASS='e0'>Bc7</a>
+ <a href="javascript:g0(19,0)" id='0' CLASS='e0'>10.Nc3</a>
+ <a href="javascript:g0(20,0)" id='0' CLASS='e0'>Nc6</a>
+ </B> [The position after <a href="javascript:g0(1,10)" id='0' CLASS='e1'>10...0-0</a>
+ <a href="javascript:g0(2,10)" id='0' CLASS='e1'>11.Qe2</a>
+ arose in the quoted game below, but in different move order. It demonstrates problems of Black's position very well:  <a href="javascript:g0(3,10)" id='0' CLASS='e1'>11...Ba5</a>
+ <a href="javascript:g0(4,10)" id='0' CLASS='e1'>12.Nd1</a>
+ <a href="javascript:g0(5,10)" id='0' CLASS='e1'>Nc6</a>
+ <a href="javascript:g0(6,10)" id='0' CLASS='e1'>13.Nf2</a>
+ <a href="javascript:g0(7,10)" id='0' CLASS='e1'>Qe7</a>
+ <a href="javascript:g0(8,10)" id='0' CLASS='e1'>14.Be3</a>
+ <a href="javascript:g0(9,10)" id='0' CLASS='e1'>Rad8</a>
+ <a href="javascript:g0(10,10)" id='0' CLASS='e1'>15.e5</a>
+ <a href="javascript:g0(11,10)" id='0' CLASS='e1'>f6</a>
+ <a href="javascript:g0(12,10)" id='0' CLASS='e1'>16.Ne4</a>
+ <a href="javascript:g0(13,10)" id='0' CLASS='e1'>fxe5</a>
+ <a href="javascript:g0(14,10)" id='0' CLASS='e1'>17.Nxe5</a>
+ <a href="javascript:g0(15,10)" id='0' CLASS='e1'>Ncxe5</a>
+ <a href="javascript:g0(16,10)" id='0' CLASS='e1'>18.fxe5+/=</a>
+ 1/2 Balashov,Y (2565)-Sveshnikov,E (2520)/Leningrad 1977/URS-ch (28)] <B><BR><BR>
+<a href="javascript:g0(21,0)" id='0' CLASS='e0'>11.Be3</a>
+ <a href="javascript:g0(22,0)" id='0' CLASS='e0'>0-0</a>
+ <a href="javascript:g0(23,0)" id='0' CLASS='e0'>12.Qe2</a>
+ <a href="javascript:g0(24,0)" id='0' CLASS='e0'>Qe7</a>
+ <a href="javascript:g0(25,0)" id='0' CLASS='e0'>13.Rad1</a>
+ <a href="javascript:g0(26,0)" id='0' CLASS='e0'>Rad8</a>
+ <a href="javascript:g0(27,0)" id='0' CLASS='e0'>14.Qf2</a>
+ </B>A new move. <B></B> [Deserves attention straightforward <a href="javascript:g0(1,11)" id='0' CLASS='e1'>14.e5!?</a>
+ , for example <a href="javascript:g0(2,11)" id='0' CLASS='e1'>14...f6</a>
+ <a href="javascript:g0(3,11)" id='0' CLASS='e1'>15.exf6</a>
+ <a href="javascript:g0(4,11)" id='0' CLASS='e1'>Qxf6</a>
+ <a href="javascript:g0(5,11)" id='0' CLASS='e1'>16.Ng5+/=</a>
+ 0-1 Zingheim,S-Odendahl,S (2405)/Chicago 1987/EXT 99 (55)] <B><BR><BR>
+<a href="javascript:g0(28,0)" id='0' CLASS='e0'>14...Ba5?</a>
+ </B>Black strives to activates his passive bishops, but he overlooks White's next move. <B></B> [<a href="javascript:g0(1,12)" id='0' CLASS='e1'>>=14...a6+/=</a>
+] <B><BR><BR>
+<a href="javascript:g0(29,0)" id='0' CLASS='e0'>15.Nb5!</a>
+ </B>Now Black gets into big trouble. <B><BR><BR>
+<a href="javascript:g0(30,0)" id='0' CLASS='e0'>15...Bb6</a>
+ </B> [<a href="javascript:g0(1,13)" id='0' CLASS='e1'>15...f6</a>
+ <a href="javascript:g0(2,13)" id='0' CLASS='e1'>16.Nd6+/-</a>
+] <B><BR><BR>
+<a href="javascript:g0(31,0)" id='0' CLASS='e0'>16.h3?</a>
+ </B>It is too soft. <B></B> [In respect of the line <a href="javascript:g0(1,14)" id='0' CLASS='e1'>16.Nd6?</a>
+ <a href="javascript:g0(2,14)" id='0' CLASS='e1'>Nf6</a>
+ <a href="javascript:g0(3,14)" id='0' CLASS='e1'>/\17.e5</a>
+ <a href="javascript:g0(4,14)" id='0' CLASS='e1'>Ng4</a>
+ White takes the g4 square under control.; Correct is energetic <a href="javascript:g0(1,15)" id='0' CLASS='e1'>>=16.e5</a>
+ and after <a href="javascript:g0(2,15)" id='0' CLASS='e1'>16...f6</a>
+ <a href="javascript:g0(3,15)" id='0' CLASS='e1'>17.Qg3+/-</a>
+ White keeps the e5 pawn and thus also the d6 square for his knight.<I> (<a href="javascript:g0(1,16)" id='0' CLASS='e2'>17.Qh4!?</a>
+) </I>] <B><BR><BR>
+<a href="javascript:g0(32,0)" id='0' CLASS='e0'>16...f6=</a>
+ </B>Black prevents the e4-e5 and equalizes, as White's Nb5 is slightly misplaced now. <B><BR><BR>
+<a href="javascript:g0(33,0)" id='0' CLASS='e0'>17.Nc3</a>
+ </B> [<a href="javascript:g0(1,17)" id='0' CLASS='e1'>17.Nd6</a>
+ <a href="javascript:g0(2,17)" id='0' CLASS='e1'>Nd4</a>
+] <B><BR><BR>
+<a href="javascript:g0(34,0)" id='0' CLASS='e0'>17...Ba5</a>
+ <a href="javascript:g0(35,0)" id='0' CLASS='e0'>18.Na4</a>
+ <a href="javascript:g0(36,0)" id='0' CLASS='e0'>b6</a>
+ <a href="javascript:g0(37,0)" id='0' CLASS='e0'>19.Bd2</a>
+ </B>White exchanges the bishops and thus resigns himself to get any advantage. <B><BR><BR>
+<a href="javascript:g0(38,0)" id='0' CLASS='e0'>19...Ndb8</a>
+ <a href="javascript:g0(39,0)" id='0' CLASS='e0'>20.Bxa5</a>
+ <a href="javascript:g0(40,0)" id='0' CLASS='e0'>Nxa5</a>
+ <a href="javascript:g0(41,0)" id='0' CLASS='e0'>21.b3</a>
+ <a href="javascript:g0(42,0)" id='0' CLASS='e0'>Nac6</a>
+ <a href="javascript:g0(43,0)" id='0' CLASS='e0'>22.Nc3</a>
+ <a href="javascript:g0(44,0)" id='0' CLASS='e0'>Rxd1</a>
+ <a href="javascript:g0(45,0)" id='0' CLASS='e0'>23.Rxd1</a>
+ <a href="javascript:g0(46,0)" id='0' CLASS='e0'>Rd8=</a>
+ </B>The position is absolutely equal. <B><BR><BR>
+<a href="javascript:g0(47,0)" id='0' CLASS='e0'>24.Rxd8+</a>
+ </B>White gives up the d file for nothing. <B></B> [<a href="javascript:g0(1,18)" id='0' CLASS='e1'>24.Rd2!?</a>
+] <B><BR><BR>
+<a href="javascript:g0(48,0)" id='0' CLASS='e0'>24...Qxd8</a>
+ <a href="javascript:g0(49,0)" id='0' CLASS='e0'>25.f5?!</a>
+ </B>This pseudoactive move only weakens White's position. <B></B> [<a href="javascript:g0(1,19)" id='0' CLASS='e1'>>=25.Qd2=</a>
+] <B><BR><BR>
+<a href="javascript:g0(50,0)" id='0' CLASS='e0'>25...Qd3</a>
+ <a href="javascript:g0(51,0)" id='0' CLASS='e0'>26.Qd2</a>
+ <a href="javascript:g0(52,0)" id='0' CLASS='e0'>Qxd2</a>
+ <a href="javascript:g0(53,0)" id='0' CLASS='e0'>27.Nxd2</a>
+ <a href="javascript:g0(54,0)" id='0' CLASS='e0'>Kf7</a>
+ <a href="javascript:g0(55,0)" id='0' CLASS='e0'>28.Kf2?!</a>
+ </B> [Still holds the balance <a href="javascript:g0(1,20)" id='0' CLASS='e1'>>=28.Nb5!?</a>
+ <a href="javascript:g0(2,20)" id='0' CLASS='e1'>Ke7</a>
+ <a href="javascript:g0(3,20)" id='0' CLASS='e1'>29.Nf3=</a>
+] <B><BR><BR>
+<a href="javascript:g0(56,0)" id='0' CLASS='e0'>28...Nd4</a>
+ <a href="javascript:g0(57,0)" id='0' CLASS='e0'>29.fxe6+</a>
+ <a href="javascript:g0(58,0)" id='0' CLASS='e0'>Kxe6=/+</a>
+ </B>Now Black is slightly better because of the better pawn structure, White has the isolated e4 pawn. <B><BR><BR>
+<a href="javascript:g0(59,0)" id='0' CLASS='e0'>30.Ke3</a>
+ <a href="javascript:g0(60,0)" id='0' CLASS='e0'>Nbc6</a>
+ <a href="javascript:g0(61,0)" id='0' CLASS='e0'>31.Nf3</a>
+ <a href="javascript:g0(62,0)" id='0' CLASS='e0'>Nc2+</a>
+ <a href="javascript:g0(63,0)" id='0' CLASS='e0'>32.Kd2</a>
+ <a href="javascript:g0(64,0)" id='0' CLASS='e0'>N2b4</a>
+ <a href="javascript:g0(65,0)" id='0' CLASS='e0'>33.a3</a>
+ <a href="javascript:g0(66,0)" id='0' CLASS='e0'>Na6</a>
+ <a href="javascript:g0(67,0)" id='0' CLASS='e0'>34.Nd5</a>
+ <a href="javascript:g0(68,0)" id='0' CLASS='e0'>Nab8</a>
+ <a href="javascript:g0(69,0)" id='0' CLASS='e0'>35.Ke3</a>
+ <a href="javascript:g0(70,0)" id='0' CLASS='e0'>Nd7</a>
+ <a href="javascript:g0(71,0)" id='0' CLASS='e0'>36.b4?</a>
+ </B>A serious mistake, White weakens his c4 pawn. <B></B> [<a href="javascript:g0(1,21)" id='0' CLASS='e1'>36.Nf4+=/+</a>
+] <B><BR><BR>
+<a href="javascript:g0(72,0)" id='0' CLASS='e0'>36...Nde5</a>
+ <a href="javascript:g0(73,0)" id='0' CLASS='e0'>37.Nf4+?!</a>
+ </B> [<a href="javascript:g0(1,22)" id='0' CLASS='e1'>>=37.Nd2</a>
+ <a href="javascript:g0(2,22)" id='0' CLASS='e1'>Kd6-/+</a>
+] <B><BR><BR>
+<a href="javascript:g0(74,0)" id='0' CLASS='e0'>37...Kd6</a>
+ <a href="javascript:g0(75,0)" id='0' CLASS='e0'>38.bxc5+</a>
+ <a href="javascript:g0(76,0)" id='0' CLASS='e0'>bxc5</a>
+ </B> [<a href="javascript:g0(1,23)" id='0' CLASS='e1'>38...Kxc5?</a>
+ <a href="javascript:g0(2,23)" id='0' CLASS='e1'>39.Ne6+</a>
+] <B><BR><BR>
+<a href="javascript:g0(77,0)" id='0' CLASS='e0'>39.Nxe5</a>
+ <a href="javascript:g0(78,0)" id='0' CLASS='e0'>Kxe5?</a>
+ </B>A blunder in the simple situation, most probably due to the time-trouble.  <B></B> [<a href="javascript:g0(1,24)" id='0' CLASS='e1'>>=39...Nxe5-/+</a>
+] <B><BR><BR>
+<a href="javascript:g0(79,0)" id='0' CLASS='e0'>40.Nd3+=/+</a>
+ </B>Now Black is only slightly better. <B><BR><BR>
+<a href="javascript:g0(80,0)" id='0' CLASS='e0'>40...Kd6</a>
+ <a href="javascript:g0(81,0)" id='0' CLASS='e0'>41.Nf4?</a>
+ </B> [<a href="javascript:g0(1,25)" id='0' CLASS='e1'>>=41.Kd2=/+</a>
+] <B><BR><BR>
+<a href="javascript:g0(82,0)" id='0' CLASS='e0'>41...Nd8?</a>
+ </B> [<a href="javascript:g0(1,26)" id='0' CLASS='e1'>>=41...Ne5-/+</a>
+] <B><BR><BR>
+<a href="javascript:g0(83,0)" id='0' CLASS='e0'>42.Kd2</a>
+ <a href="javascript:g0(84,0)" id='0' CLASS='e0'>Nc6</a>
+ <a href="javascript:g0(85,0)" id='0' CLASS='e0'>43.Nd3</a>
+ </B>'>==/+' Babula,V.  <B><BR><BR>
+<a href="javascript:g0(86,0)" id='0' CLASS='e0'>43...Nd4</a>
+ </B> [After <a href="javascript:g0(1,27)" id='0' CLASS='e1'>43...Ne5</a>
+ White is forced to play <a href="javascript:g0(2,27)" id='0' CLASS='e1'>44.Nb2=/+</a>
+ <I> (</I>as the pawn ending <I><a href="javascript:g0(1,28)" id='0' CLASS='e2'>44.Nxe5?</a>
+ <a href="javascript:g0(2,28)" id='0' CLASS='e2'>Kxe5</a>
+ <a href="javascript:g0(3,28)" id='0' CLASS='e2'>45.Ke3</a>
+ <a href="javascript:g0(4,28)" id='0' CLASS='e2'>h5-+</a>
+ </I>is simply lost, Black has more tempi than White.<I>) </I>] <B><BR><BR>
+<a href="javascript:g0(87,0)" id='0' CLASS='e0'>44.Nf4</a>
+ <a href="javascript:g0(88,0)" id='0' CLASS='e0'>g5</a>
+ <a href="javascript:g0(89,0)" id='0' CLASS='e0'>45.Nd3</a>
+ <a href="javascript:g0(90,0)" id='0' CLASS='e0'>Nc6</a>
+ <a href="javascript:g0(91,0)" id='0' CLASS='e0'>46.Ke3</a>
+ <a href="javascript:g0(92,0)" id='0' CLASS='e0'>h5</a>
+ <a href="javascript:g0(93,0)" id='0' CLASS='e0'>47.g3</a>
+ <a href="javascript:g0(94,0)" id='0' CLASS='e0'>Ne5</a>
+ <a href="javascript:g0(95,0)" id='0' CLASS='e0'>48.Nb2</a>
+ </B> [<a href="javascript:g0(1,29)" id='0' CLASS='e1'>48.Nxe5?</a>
+ <a href="javascript:g0(2,29)" id='0' CLASS='e1'>Kxe5-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(96,0)" id='0' CLASS='e0'>48...a6</a>
+ <a href="javascript:g0(97,0)" id='0' CLASS='e0'>49.Ke2</a>
+ <a href="javascript:g0(98,0)" id='0' CLASS='e0'>Nc6</a>
+ <a href="javascript:g0(99,0)" id='0' CLASS='e0'>50.Nd3</a>
+ <a href="javascript:g0(100,0)" id='0' CLASS='e0'>Nd4+</a>
+ <a href="javascript:g0(101,0)" id='0' CLASS='e0'>51.Kd2</a>
+ <a href="javascript:g0(102,0)" id='0' CLASS='e0'>Nc6</a>
+ <a href="javascript:g0(103,0)" id='0' CLASS='e0'>52.Ke3</a>
+ <a href="javascript:g0(104,0)" id='0' CLASS='e0'>Ne5?!</a>
+ <a href="javascript:g0(105,0)" id='0' CLASS='e0'>53.Nxe5!</a>
+ </B>Now the pawn ending is drawish, as Black has already moved his a pawn and thus has lost one tempo. <B><BR><BR>
+<a href="javascript:g0(106,0)" id='0' CLASS='e0'>53...Kxe5</a>
+ <a href="javascript:g0(107,0)" id='0' CLASS='e0'>54.h4=</a>
+ </B> [<a href="javascript:g0(1,30)" id='0' CLASS='e1'>54.h4</a>
+ <a href="javascript:g0(2,30)" id='0' CLASS='e1'>gxh4</a>
+ <a href="javascript:g0(3,30)" id='0' CLASS='e1'>55.gxh4</a>
+ <a href="javascript:g0(4,30)" id='0' CLASS='e1'>a5</a>
+ <a href="javascript:g0(5,30)" id='0' CLASS='e1'>56.a4</a>
+ <a href="javascript:g0(6,30)" id='0' CLASS='e1'>f5</a>
+ <a href="javascript:g0(7,30)" id='0' CLASS='e1'>57.exf5</a>
+ <a href="javascript:g0(8,30)" id='0' CLASS='e1'>Kxf5</a>
+ <a href="javascript:g0(9,30)" id='0' CLASS='e1'>58.Kf3</a>
+] <B> 1/2-1/2</B></P>
+<BR><BR></CENTER>
+<script>
+<!--
+if ( parent.loaded >= 1 )
+{	parent.frames[0].Start( parent.frames[1].m84, parent.frames[1].n84, false );
+}
+ else parent.loaded++;
+//-->
+</script>
+</BODY></HTML>
