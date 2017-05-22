@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+	{{ partial "mobile_nav_toggle.html" . }}
+	<div class="content-column-content">
+		<div class="row">
+			<h1>{{ .Title }}</h1>
+			<ul id="list">
+				{{ range .Data.Pages }}
+				{{ .Render "li"}}
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</div>
+		{{ end }}
+
+
+
