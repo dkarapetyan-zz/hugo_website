@@ -14,8 +14,7 @@ from wifi signals in the surrounding area. Then, using a proprietary algorithm t
 
 # Installation
 
-* [Install the Python 2.7 version of 
-Anaconda 4.0.0 (64-bit)](https://www.continuum.io/downloads).
+* Install the Python 2.7 version of [Anaconda 4.0.0 (64-bit)](https://www.continuum.io/downloads).
 * Download the desired release of Sniffer 
 to your local hard drive. If you have a local copy of git, this can be
 done by running `git clone https://github.com/dkarapetyan/sniffer` in a unix
