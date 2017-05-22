@@ -21,7 +21,7 @@ a tango and waltz performance with an excellent follower.
 src="//www.youtube.com/embed/X6RIaAc0Nto?rel=0" allowfullscreen frameborder="0">
 </iframe>
 </div>
-<div class="col-xs-6 col-sm-6 col-md-4 col-lg-6">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 <iframe class="youtube-player" type="text/html" width="auto" height="480"
 https://youtu.be/qjZY0gXgH0k
 src="//www.youtube.com/embed/qjZY0gXgH0k?rel=0" allowfullscreen frameborder="0">

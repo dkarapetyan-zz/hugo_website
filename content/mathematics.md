@@ -8,7 +8,6 @@
 	<span class="Pages"></span>&nbsp;
 	(<span class="Date">2012</span>)<br />
 	<span class="URL"><a href="http://arxiv.org/abs/1202.6671">http://arxiv.org/abs/1202.6671</a></span><br />
-	<div class="Abstract"></div>
 </body>
 
 
@@ -20,7 +19,6 @@
 	<span class="Pages"></span>&nbsp;
 	(<span class="Date">2012</span>)<br />
 	<span class="URL"><a href="http://arxiv.org/abs/1111.5879">http://arxiv.org/abs/1111.5879</a></span><br />
-	<div class="Abstract"></div>
 </body>
 
 <body class="Pub">
@@ -30,7 +28,6 @@
 	<span class="Volume"></span>&nbsp;
 	<span class="Pages"></span>&nbsp;
 	(<span class="Date">2012</span>)<br />
-	<div class="Abstract"></div>
 </body>
 
 
@@ -42,7 +39,6 @@
 	<span class="Pages">796--826</span>&nbsp;
 	(<span class="Date">2010</span>)<br />
 	<span class="URL"><a href="http://www.ams.org.proxy.library.nd.edu/mathscinet-getitem?mr=2652154">http://www.ams.org.proxy.library.nd.edu/mathscinet-getitem?mr=2652154</a></span><br />
-	<div class="Abstract"></div>
 </body>
 
 
