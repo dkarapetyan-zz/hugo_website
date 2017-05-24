@@ -1,4 +1,4 @@
-#### Publications
+### Publications
 
 <body class="Pub">
 	<span class="Title">An ill-posedness result for the Boussinesq equation</span><br />
@@ -42,7 +42,7 @@
 </body>
 
 
-#### Notes (written for classes I've taught)
+### Notes (written for classes I've taught)
 
 [Numerical Analysis](/pdfs/numerical_analysis.pdf)
 
