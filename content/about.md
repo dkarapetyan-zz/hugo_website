@@ -1,9 +1,8 @@
 +++
 +++
-<figure>
-    <img src="/images/avatar.jpeg" width="230" height="230"  />
+<figure class="figure">
+    <img src="/images/avatar.jpeg" class="figure-img img-fluid" width="230" height="230">
 </figure>
-
 
 David Karapetyan during the day is an accomplished data scientist, whose most
 recently  created  a 'smart buildling' recommendation engine Rudin Management,
