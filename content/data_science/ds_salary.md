@@ -8,9 +8,9 @@ image="/images/negotiation.jpg"
 
 #  Introduction
 
-O'Really conducts yearly surveys on Data Science and Data Engineers positions highlighting the main factors that can influence data professionals' salaries. In that [survey](http://www.oreilly.com/data/free/2016-data-science-salary-survey.csp) a linear regression model incorporating the most relevant career influencing variables was compiled. 
+O'Really conducts yearly surveys on Data Science and Data Engineers positions highlighting the main factors that can influence data professionals' salaries. In that [survey](http://www.oreilly.com/data/free/2016-data-science-salary-survey.csp) a linear regression model incorporating the most relevant career influencing variables was compiled.
 
-**The ipython notebook version of this report is designed to allow data scientists and data engineers to plug in their own data (see User Parameters section) to find out whether their current 2016 salary is aligned with their market value.**
+**The ipython [notebook](https://github.com/dkarapetyan/negotiation/blob/master/ds_salary.ipynb) of this report is designed to allow data scientists and data engineers to plug in their own data (see User Parameters section) to find out whether their current 2016 salary is aligned with their market value.**
 
 According to the authors of the survey, their model is able to explain roughly 75% of the variance in the data:
 
@@ -51,7 +51,7 @@ state = 'California'
 gender='Male'
 years_experience = 3
 bargaining_skill_points = 5 #scale of 1 to 5
-age = 34 
+age = 34
 academic_specialty='Math'
 have_phd = 1
 currently_student=0
@@ -109,7 +109,7 @@ def coding_amount_scaler(amt):
         return -3
     else:
         return -0.5
-    
+
 def meeting_scaler(num_meetings):
     if x < 1:
         return 0
@@ -121,7 +121,7 @@ def meeting_scaler(num_meetings):
         return 20.6
     else:
         return 21.1
-    
+
 def work_week_scaler(amt_worked):
     if amt_worked < 46:
         return 0
@@ -131,7 +131,7 @@ def work_week_scaler(amt_worked):
         return -2.4
 
 
-    
+
 def languages_used_scaler(array_langs):
     sum = 0
     if 'Python' in array_langs:
@@ -143,14 +143,14 @@ def languages_used_scaler(array_langs):
     return sum
 
 def tools_used_scaler(tools_array):
-    cluster_0 = ['MySQL', 'PostgreSQL', 'SQLite', 'Redshift', 'Vertica', 'Redis', 'Ruby']  
+    cluster_0 = ['MySQL', 'PostgreSQL', 'SQLite', 'Redshift', 'Vertica', 'Redis', 'Ruby']
     cluster_1 = ['Spark', 'Unix', 'Spark MlLib', 'ElasticSearch', 'Scala', 'H2O', 'EMC/Greenplum', 'Mahout']
     cluster_2 = ['Hive', 'Apache Hadoop', 'Cloudera', 'Hortonworks', 'Hbase', 'Pig', 'Impala']
     cluster_3 = ['Tableau', 'Teradata', 'Netezza (IBM)', 'Microstrategy', 'Aster Data (Teradata)', 'Jaspersoft']
     cluster_4 = ['MongoDB', 'Kafka', 'Cassandra', 'Zookeeper', 'Storm', 'JavaScript InfoVis Toolkit', 'Go', 'Couchbase']
     clusters = [cluster_0, cluster_1, cluster_2, cluster_3, cluster_4]
     cluster_ops=[0, 0, 0, 0, 0]
-    
+
     for item in tools_array:
         for i in range(5):
             if item in clusters[i]:
@@ -163,7 +163,7 @@ def tools_used_scaler(tools_array):
             cluster_ops[i] = min(item, 5)
         else:
             cluster_ops[i] = min(item, 3)
-    
+
     scaling_factors = [1.7, 3.9, 1.5, 2.4, 1.3]
     scaled = sum([a*b for a,b in zip(cluster_ops_maxed, scaling_factors)])
     return scaled
