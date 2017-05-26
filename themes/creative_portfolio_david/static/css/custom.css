@@ -68,9 +68,11 @@ h2 a:hover, h3 a:hover {
   /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
   /*font-size: 16px;*/
   /*line-height: 1.55;*/
-  /*color: #000000;*/
+  /*color: #000000 !important;*/
   /*background-color: #f4f4f4;*/
 /*}*/
 
-
+p, li, .sidebar-menu li a {
+  color: #333333 !important;
+}
 </style>
