@@ -16,17 +16,13 @@ I enjoy social tango dancing and salsa dancing in my spare time. I recently impr
 a tango and waltz performance with an excellent follower.
 
 <div class="row">
-<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-<iframe class="youtube-player" type="text/html" width="270" height="480"
+<iframe class="col-md-6" type="text/html" width="270" height="480"
 src="//www.youtube.com/embed/X6RIaAc0Nto?rel=0" allowfullscreen frameborder="0">
 </iframe>
-</div>
-<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-<iframe class="youtube-player" type="text/html" width="auto" height="480"
+<iframe class="col-md-6" type="text/html" width="auto" height="480"
 https://youtu.be/qjZY0gXgH0k
 src="//www.youtube.com/embed/qjZY0gXgH0k?rel=0" allowfullscreen frameborder="0">
 </iframe>
-</div>
 </div>
 
 
