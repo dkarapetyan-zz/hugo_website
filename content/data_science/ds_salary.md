@@ -1,7 +1,7 @@
 +++
 title="Data Science Negotiation"
 description="Estimating a fair data science salary"
-weight=10
+weight=5
 portfolio=true
 image="/images/negotiation.jpg"
 +++
