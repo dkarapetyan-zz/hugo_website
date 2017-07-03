@@ -9,6 +9,12 @@ weight = 11
 +++
 
 
+### Playlist
 
 {{< soundcloud >}}
 
+### Scores 
+
+[Our Es Myer Eem. For SSAATTB](/pdfs/our_es_myer_eem.pdf)
+
+<!--[Probability and Applications to Finance](/pdfs/probability.pdf)-->
