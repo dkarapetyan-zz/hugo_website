@@ -1,6 +1,6 @@
 +++
-title="Data Science Negotiation"
-description="Estimating a fair data science salary"
+title="Data Science Market"
+description="Dynamic estimator of market-value salary for a data scientist, given their credentials"
 weight=5
 portfolio=true
 image="/images/negotiation.jpg"
