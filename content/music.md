@@ -15,6 +15,6 @@ weight = 11
 
 ### Scores 
 
-[Our Es Myer Eem. For SSAATTB](/pdfs/our_es_myer_eem.pdf)
+[Our Es Myer Eem (for SSAATTB) (2017)](/pdfs/our_es_myer_eem.pdf)
 
 <!--[Probability and Applications to Finance](/pdfs/probability.pdf)-->
