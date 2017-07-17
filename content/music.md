@@ -17,7 +17,7 @@ weight = 11
 
 [Our Es Myer Eem (for SSAATTB) (2017)](/pdfs/our_es_myer_eem.pdf)
 
-[Pereg (for Piano) (2017)](/pdfs/pereg.pdf)
+[Pereg (for Piano) (2012)](/pdfs/pereg.pdf)
 
 
 <!--[Probability and Applications to Finance](/pdfs/probability.pdf)-->
