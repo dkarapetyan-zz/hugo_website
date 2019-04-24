@@ -65,6 +65,6 @@ url = "contact/"
 [params.social]
 email         = "david.karapetyan@gmail.com"
 linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-github     = "https://github.com/dkarapetyan"
+# github     = "https://github.com/dkarapetyan"
 soundcloud = "https://soundcloud.com/davidkarapetyan"
 resume="/pdfs/resume.pdf"

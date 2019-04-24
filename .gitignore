@@ -3,3 +3,4 @@ static/
 .firebaserc
 firebase*
 .firebase
+**/*.icloud
