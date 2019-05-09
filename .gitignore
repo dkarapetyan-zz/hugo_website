@@ -4,3 +4,4 @@ static/
 firebase*
 .firebase
 **/*.icloud
+node_modules/
