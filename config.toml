@@ -14,7 +14,7 @@ pygmentsStyle="default"
 style = "default"
 description = "Data Artist by day, Music Artist by night"
 copyright = "David Karapetyan"
-sidebarAbout = ["I am a data scientist with over four years experience writing code and leading teams. Originally from Los Angeles, currently based in Berlin."   
+sidebarAbout = ["I am a data scientist with over four years experience. Originally from Los Angeles, currently based in Berlin."   
 								]
 # Contact page
 # Since this template is static, the contact form uses www.formspree.io as a
