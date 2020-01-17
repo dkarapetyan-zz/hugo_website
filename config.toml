@@ -14,9 +14,7 @@ pygmentsStyle="default"
 style = "default"
 description = "Data Artist by day, Music Artist by night"
 copyright = "David Karapetyan"
-sidebarAbout = [
-								"I am a data scientist with over three years experience, and a music composer with over seven years experience.",
-								"Originally from Los Angeles, currently based in Berlin."
+sidebarAbout = ["I am a data scientist with over four years experience writing code and leading teams.Originally from Los Angeles, currently based in Berlin."
 								]
 # Contact page
 # Since this template is static, the contact form uses www.formspree.io as a
@@ -32,7 +30,7 @@ sidebarAbout = [
 # - you're done. Happy mailing!
 [author]
 name = "David Karapetyan"
-homepage="https://davidkarapetyan.com"
+homepage="https://datascience.davidkarapetyan.com"
 email = "david.karapetyan@gmail.com"
 
 # If porting an existing theme
@@ -50,14 +48,8 @@ url = "about/"
 name = "Data Science"
 url = "data_science/"
 [[params.navlinks]]
-name = "Mathematics"
-url = "mathematics/"
-[[params.navlinks]]
-name = "Music"
-url = "music/"
-[[params.navlinks]]
-name = "Hobbies"
-url = "hobbies/"
+name = "When I'm Not Working"
+url = "davidkarapetyan.com"
 [[params.navlinks]]
 name = "Contact"
 url = "contact/"
@@ -65,6 +57,4 @@ url = "contact/"
 [params.social]
 email         = "david.karapetyan@gmail.com"
 linkedin      = "https://www.linkedin.com/in/davidkarapetyan"
-# github     = "https://github.com/dkarapetyan"
-soundcloud = "https://soundcloud.com/davidkarapetyan"
 resume="/pdfs/resume.pdf"
