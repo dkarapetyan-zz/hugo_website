@@ -17,4 +17,5 @@ David Karapetyan during the night is an accomplished composer. He has written ov
 compositions, including work for short film, solo piano, classical choir, and both classical
 and electronic orchestra. His composition style is diverse, capable of producing a jazzy score
 with ethnic instruments, a loop-based dance track, or a large dramatic score. 
+For more informationk please visit [https://davidkarapetyan.com](https://davidkarapetyan.com)
 

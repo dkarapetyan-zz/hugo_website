@@ -5,3 +5,4 @@ firebase*
 .firebase
 **/*.icloud
 node_modules/
+.idea/
